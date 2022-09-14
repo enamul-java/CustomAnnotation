@@ -25,7 +25,7 @@ public class BikashBillInfo {
 
     String billDesc;
 
-    //@Encrypt
+    @Encrypt
     String billAmount;
 
     @Encrypt(encryptType = "AES")
